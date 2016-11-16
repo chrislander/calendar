@@ -41,7 +41,6 @@ class calendar {
         $end = clone $current;
         $end->modify('+6 week');
 
-        var_dump($end);
 
         $calendar = array();
         $calendar['current_month']              = $date->format('m');
